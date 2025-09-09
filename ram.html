@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Discos SSD - Tienda de Componentes</title>
+  <link rel="icon" href="https://th.bing.com/th/id/OIP.e5EhUAckTLgA3pYFmv01qgHaD_?w=295&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #8b0000, #ff6600);
+      margin: 0;
+      color: #fff;
+    }
+
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 4px solid #ff4500;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin-top: 5px;
+      color: #ccc;
+    }
+
+    main.grid-modelos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .modelo {
+      background: #1a1a1a;
+      border: 2px solid #ff4500;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .modelo:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+
+    .modelo img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: contain;
+      margin-bottom: 15px;
+      background: #2e2e2e;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    .modelo h3 {
+      margin: 0 0 10px 0;
+      color: #ff4500;
+      font-size: 1.2em;
+    }
+
+    .modelo .precio {
+      color: #ff9900;
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .modelo a {
+      display: inline-block;
+      background-color: #ff4500;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .modelo a:hover {
+      background-color: #ff6600;
+    }
+    
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Modelo de memorias RAM</h1>
+  <p>Haz clic en "Comprar" para acceder a Mercado Libre</p>
+</header>
+
+<main class="grid-modelos">
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_788700-MLA89905742867_082025-F.webp" alt="Nvidia MSI Ventus GeForce RTX 30" width="100px" height="100px" />
+    <h3>Memoria Ram Wicgtyp 8gb Ddr3 Sodimm 1600 Mhz Notebook</h3>
+    <div class="precio">$18.000</div>
+    <a href="https://www.mercadolibre.com.ar/memoria-ram-wicgtyp-8gb-ddr3-sodimm-1600-mhz-notebook/up/MLAU3019488002#polycard_client=recommendations_pdp-v2p&reco_backend=ranker_retrieval_online_vpp_v2p&reco_model=coldstart_high_exposition%2C+coldstart_low_exposition%2C+rk_online_v4_retsys_vpp_v2p&reco_client=pdp-v2p&reco_item_pos=0&reco_backend_type=low_level&reco_id=10491bf2-9167-4de5-9577-2e3f0258b19c&wid=MLA1476949371&sid=recos" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_688563-MLA91551860679_092025-F.webp" alt="Nvidia Geforce Rtx 3050" />
+    <h3>Memoria RAM S1 gamer color negro 16GB DDR4 Hikvision HKED4162DAB1D0ZA1/16G</h3>
+    <div class="precio">$89.677</div>
+    <a href="https://www.mercadolibre.com.ar/memoria-ram-s1-gamer-color-negro-16gb-ddr4-hikvision-hked4162dab1d0za116g/p/MLA21025550#polycard_client=recommendations_pdp-v2p&reco_backend=ranker_retrieval_online_vpp_v2p&reco_model=rk_online_v4_retsys_vpp_v2p%2C+coldstart_low_exposition%2C+coldstart_high_exposition&reco_client=pdp-v2p&reco_item_pos=2&reco_backend_type=low_level&reco_id=ecc1c4a0-bbbc-438d-bba1-135a816686de&wid=MLA1507045224&sid=recos" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_925767-MLA85941423783_062025-F.webp" alt="Amd Rx 7600 Xt Gigabyte Gaming" />
+    <h3>Memoria Ram Ddr2 2gb 800mhz Dimm 1.5v - Intel Y Amd - Plus</h3>
+    <div class="precio">$11.171</div>
+    <a href="https://www.mercadolibre.com.ar/memoria-ram-ddr2-2gb-800mhz-dimm-15v-intel-y-amd-plus/p/MLA46085805?pdp_filters=item_id:MLA2046240496#wid=MLA2046240496&sid=search&is_advertising=true&searchVariation=MLA46085805&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=c0e627d4-7f2d-4786-8ac8-4ff3bca6b404&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=ZjgxMDY4NWItYjVhZS00ZDVlLWIwMTEtNWRmNzE5MjQzMjg5" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_814341-MLA72366507326_102023-F.webp" alt="Gigabyte Eagle Ice Oc Rtx5060" />
+    <h3>Memoria Ram Pc Dimm Ddr4 Casper Pc4 16gb 3200mhz 1.2v</h3>
+    <div class="precio">$45.900</div>
+    <a href="https://articulo.mercadolibre.com.ar/MLA-1393208857-memoria-ram-pc-dimm-ddr4-casper-pc4-16gb-3200mhz-12v-_JM#polycard_client=recommendations_vip-pads-up&reco_backend=vip-pads-up-experimental-a_marketplace&reco_model=rk_ent_v2_retsys_ads&reco_client=vip-pads-up&reco_item_pos=2&reco_backend_type=low_level&reco_id=6453802a-3808-448c-8e05-a82866614998&wid=MLA1393208857&sid=recos&is_advertising=true&ad_domain=VIPDESKTOP_UP&ad_position=3&ad_click_id=N2MyZjdjNzItZDZhMC00YzE0LTk4MzctMDJlZDcyMTEzNjgy" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_946878-MLA83907313514_042025-F.webp" alt="Nvidia MSI GeForce 700 Series GT 710" />
+    <h3>Memoria Ram Ddr4 8gb 2666mhz Sodimm 1.2v</h3>
+    <div class="precio">$46.900</div>
+    <a href="https://articulo.mercadolibre.com.ar/MLA-1567393526-memoria-ram-ddr4-8gb-2666mhz-sodimm-12v-_JM#polycard_client=recommendations_pdp-pads-up&reco_backend=pdp_pads_up_merge_rars_v2_with_default&reco_client=pdp-pads-up&reco_item_pos=2&reco_backend_type=low_level&reco_id=d6340645-7818-4559-851f-81bc20b0168f&wid=MLA1567393526&sid=recos&is_advertising=true&ad_domain=PDPDESKTOP_UP&ad_position=3&ad_click_id=YTM0N2M0MzQtNjJkYS00MjUxLTk4ZTItNDkyNTdkODBhYzgx" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_691118-MLA82169631404_022025-F.webp" alt="Nvidia Gigabyte GeForce RTX 40 Series RTX 4060" />
+    <h3>Memoria Ram Sodimm Ddr2 2gb 800mhz Intel Y Amd Notebook Plus</h3>
+    <div class="precio">$15.882</div>
+    <a href="https://articulo.mercadolibre.com.ar/MLA-2013326856-memoria-ram-sodimm-ddr2-2gb-800mhz-intel-y-amd-notebook-plus-_JM#polycard_client=recommendations_vip-pads-up&reco_backend=vip-pads-up-experimental-a_marketplace&reco_model=rk_ent_v2_retsys_ads&reco_client=vip-pads-up&reco_item_pos=11&reco_backend_type=low_level&reco_id=ddf2943e-0edf-4dad-a15d-fc26d86bff27&wid=MLA2013326856&sid=recos&is_advertising=true&ad_domain=VIPDESKTOP_UP&ad_position=12&ad_click_id=MGYzMTJmZGItYzIxNi00ODA2LTkxZjktODVmYjY1Mzc4MTQx" target="_blank">Comprar</a>
+  </div>
+</main>
+
+</body>
+</html>
