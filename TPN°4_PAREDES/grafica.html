@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tarjetas graficas - Tienda de Componentes</title>
+  <link rel="icon" href="https://th.bing.com/th/id/OIP.e5EhUAckTLgA3pYFmv01qgHaD_?w=295&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #8b0000, #ff6600);
+      margin: 0;
+      color: #fff;
+    }
+
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 4px solid #ff4500;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin-top: 5px;
+      color: #ccc;
+    }
+
+    main.grid-modelos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .modelo {
+      background: #1a1a1a;
+      border: 2px solid #ff4500;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .modelo:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+
+    .modelo img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: contain;
+      margin-bottom: 15px;
+      background: #2e2e2e;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    .modelo h3 {
+      margin: 0 0 10px 0;
+      color: #ff4500;
+      font-size: 1.2em;
+    }
+
+    .modelo .precio {
+      color: #ff9900;
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .modelo a {
+      display: inline-block;
+      background-color: #ff4500;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .modelo a:hover {
+      background-color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Modelos de graficas</h1>
+  <p>Haz clic en "Comprar" para acceder a Mercado Libre</p>
+</header>
+
+<main class="grid-modelos">
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_640094-MLU75606145950_042024-F.webp" alt="Nvidia MSI Ventus GeForce RTX 30" width="100px" height="100px" />
+    <h3>Nvidia MSI Ventus GeForce RTX 30</h3>
+    <div class="precio">$668.128</div>
+    <a href="https://www.mercadolibre.com.ar/tarjeta-grafica-dual-nvidia-geforce-rtx-3050-6gb/p/MLA35276804#polycard_client=search-nordic&searchVariation=MLA35276804&wid=MLA2044333830&position=6&search_layout=grid&type=product&tracking_id=45029c3b-91a9-4e93-885d-e0fc0e92492b&sid=search" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_930430-MLA91889792119_092025-F.webp" alt="Nvidia Geforce Rtx 3050" />
+    <h3>Nvidia Geforce Rtx 3050</h3>
+    <div class="precio">$296.999</div>
+    <a href="https://www.mercadolibre.com.ar/placa-de-video-palit-geforce-rtx-5070-ti-gamingpro-s-16gb-vx/p/MLA53590343?pdp_filters=item_id:MLA2222130762#polycard_client=recommendations_pdp-pads-up&reco_backend=recomm_platform_base_merge_pads&reco_model=search_recos_backend_merge&reco_client=pdp-pads-up&reco_item_pos=2&reco_backend_type=low_level&reco_id=60993171-de2b-4f7f-8492-453570e2b7d2&wid=MLA2222130762&sid=recos&is_advertising=true&ad_domain=PDPDESKTOP_UP&ad_position=3&ad_click_id=NmZmYTA0MzEtMTU2Ni00ZjFiLTk4ODgtNWU0YmI4MzJhMjIz" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_914785-MLA89354892640_082025-F.webp" alt="Amd Rx 7600 Xt Gigabyte Gaming" />
+    <h3>Placa De Video Arktek Rx 6600 Le Cyclops 8gb Gddr6 Radeon</h3>
+    <div class="precio">$399.475</div>
+    <a href="https://articulo.mercadolibre.com.ar/MLA-2225601954-placa-de-video-arktek-rx-6600-le-cyclops-8gb-gddr6-radeon-_JM#polycard_client=recommendations_pdp-v2p&reco_backend=ranker_retrieval_online_vpp_v2p&reco_model=coldstart_low_exposition%2C+rk_online_v4_retsys_vpp_v2p%2C+coldstart_high_exposition&reco_client=pdp-v2p&reco_item_pos=1&reco_backend_type=low_level&reco_id=7bc21f75-7461-40d2-aa2d-540ffe96569d&wid=MLA2225601954&sid=recos" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_743079-MLA91478652612_092025-F.webp" alt="Gigabyte Eagle Ice Oc Rtx5060" />
+    <h3>Gigabyte Eagle Ice Oc Rtx5060</h3>
+    <div class="precio">$599.398</div>
+    <a href="https://www.mercadolibre.com.ar/tarjeta-grafica-gigabyte-eagle-ice-oc-rtx5060-8gb-gdrr7-128b/p/MLA50863048#polycard_client=search-nordic&searchVariation=MLA50863048&wid=MLA2116996572&position=29&search_layout=grid&type=product&tracking_id=d3e489bc-5086-4e43-b853-9550f13535b5&sid=search" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_764938-MLA53854671366_022023-F.webp" alt="Nvidia MSI GeForce 700 Series GT 710" />
+    <h3>Nvidia MSI GeForce 700 Series GT 710</h3>
+    <div class="precio">$90.815</div>
+    <a href="https://www.mercadolibre.com.ar/placa-de-video-nvidia-msi-geforce-700-series-gt-710-gt-710-2gd3-lp-2gb/p/MLA15178697#polycard_client=search-nordic&searchVariation=MLA15178697&wid=MLA921819568&position=4&search_layout=grid&type=product&tracking_id=7e844182-1b33-48ab-823f-95819b6eeb7a&sid=search" target="_blank">Comprar</a>
+  </div>
+
+  <div class="modelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_675799-MLU70980474739_082023-F.webp" alt="Nvidia Gigabyte GeForce RTX 40 Series RTX 4060" />
+    <h3>Tarjeta de Video Gigabyte GeForce Rtx 4060 Windforce Oc 8Gb Gddr6</h3>
+    <div class="precio">$655.746</div>
+    <a href="https://www.mercadolibre.com.ar/tarjeta-de-video-gigabyte-geforce-rtx-4060-windforce-oc-8gb-gddr6/p/MLA25873038#polycard_client=recommendations_pdp-v2p&reco_backend=ranker_retrieval_online_vpp_v2p&reco_model=rk_online_v4_retsys_vpp_v2p%2C+coldstart_low_exposition%2C+coldstart_high_exposition&reco_client=pdp-v2p&reco_item_pos=0&reco_backend_type=low_level&reco_id=903c6ea7-348c-433c-976e-1fa1aa0b26d2&wid=MLA1456912947&sid=recos" target="_blank">Comprar</a>
+  </div>
+</main>
+
+</body>
+</html>
